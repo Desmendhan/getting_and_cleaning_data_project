@@ -112,11 +112,11 @@ summarise_means_stds <- function(dataset) {
 }
 
 # Having defined all the functions, we now call them in order to produce the
-# final dataset. We return two variables - the tidy form of the raw data, and
-# grouped means per subject & activity
+# final dataset, which is printed to stdout.
 
 merge_raw_data() %>%
     extract_means_and_stds %>%
     label_activities %>%
     rename_variables %>%
-    summarise_means_stds
+    summarise_means_stds %>%
+    print

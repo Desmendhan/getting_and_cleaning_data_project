@@ -14,7 +14,8 @@ You will also need the `dplyr` package available. The script will load it
 automatically.
 
 Once these conditions are met, simply `source('run_analysis.R')` to run the
-script and return the analysed tidy data set.
+script and return the analysed tidy data set. `codebook.md` contains the
+explanation of the variables.
 
 # How the script works
 
