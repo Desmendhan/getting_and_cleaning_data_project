@@ -120,4 +120,4 @@ result <- merge_raw_data() %>%
     rename_variables %>%
     summarise_means_stds
 
-print result
+print(result)
